@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://scontent.fpag2-1.fna.fbcdn.net/v/t1.15752-9/330621830_743408403876414_5788273065944127547_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHat8s4cJA-rKoI6uiQecPaI3_Ho4y9LDQjf8ejjL0sNF-fu0cCDR2GeVQVy0F5bIHfz9EgFM1ppuQcfJSP8b04&_nc_ohc=4s7cjLntNcIAX-iL6fm&_nc_ht=scontent.fpag2-1.fna&oh=03_AdQPR6Uax7VmA7RUbXJ_WI41VjIUebWiZ6NWtdyLOZrgGg&oe=65EEA6A7" alt="photo logo">
+        <h1>Ana Bulalaque</h1>
+        
+    <nav>
+        <div class="dropdown-content">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contacts.html">Contact</a>
+    </nav>
+
+    <div class="menu-icon" onclick="toggleNav()">
+        &#9776; 
+    </div>
+    </header>
+
+    <script>
+        function toggleNav() {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('show');
+        }
+    </script>
+</body>
+<body style="background-color: lightpink;">
+    <h1 style="color: #ff5ad6; font-family: 'Franklin Gothic Medium'; text-align: center; margin-top: 150px; font-size: 50px;">WELCOME TO MY WEBSITE</h1>
+    <p style="text-align: center; color: #ff5ad6; "><em>hope you enjoy exploring here</em></p>
+</body>
+<footer>
+    <p>&copy; 2024 Ana Bulalaque</p>
+</footer>
+</html>
